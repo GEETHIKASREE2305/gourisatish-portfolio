@@ -1,0 +1,48 @@
+<!-- ============================================================
+     COMPONENT: Site header / primary navigation
+     Injected by assets/js/include.js via [data-include].
+     For a backend later: render this same file with a server-side
+     include (SSI / PHP / Nunjucks / Blade) and drop include.js.
+     The host element may set data-active="home|about|education|
+     vision|news|gallery|voter|connect" to flag the current page.
+
+     BILINGUAL: every label carries an English (.lang-en) and a
+     Telugu (.lang-te, hidden by default) span. assets/js/main.js
+     detects a "/te/" segment in the URL and flips which one shows,
+     and fixes up the language-switch link/label — see initLang()
+     there. The nav hrefs themselves need no rewriting: they're bare
+     filenames, so they resolve within whichever directory (English
+     root or te/) the current page lives in.
+     ============================================================ -->
+<a class="skip" href="#main"><span class="lang-en">Skip to content</span><span class="lang-te" hidden>ప్రధాన కంటెంట్‌కు వెళ్లండి</span></a>
+<header class="site-header" data-site-header>
+  <div class="container site-header__bar">
+    <a class="brand" href="index.html" data-nav="home" aria-label="Gouri Satish — home">
+      <span class="brand__mark" aria-hidden="true">GS</span>
+      <span class="brand__text">
+        <span class="brand__name">Gouri Satish</span>
+        <span class="brand__sub">
+          <span class="lang-en">Educationalist &bull; Indian National Congress</span>
+          <span class="lang-te" hidden>విద్యావేత్త &bull; ఇండియన్ నేషనల్ కాంగ్రెస్</span>
+        </span>
+      </span>
+    </a>
+
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="primary-nav"
+            aria-label="Open menu" data-nav-toggle><span></span></button>
+
+    <nav class="nav" id="primary-nav" aria-label="Primary">
+      <div class="nav__links">
+        <a href="index.html"            data-nav="home"><span class="lang-en">Home</span><span class="lang-te" hidden>హోమ్</span></a>
+        <a href="about.html"            data-nav="about"><span class="lang-en">About</span><span class="lang-te" hidden>పరిచయం</span></a>
+        <a href="education.html"        data-nav="education"><span class="lang-en">Education &amp; Public Service</span><span class="lang-te" hidden>విద్య &amp; ప్రజాసేవ</span></a>
+        <a href="vision.html"           data-nav="vision"><span class="lang-en">Vision for Graduates</span><span class="lang-te" hidden>దార్శనికత</span></a>
+        <a href="news.html"             data-nav="news"><span class="lang-en">News &amp; Media</span><span class="lang-te" hidden>వార్తలు</span></a>
+        <a href="gallery.html"          data-nav="gallery"><span class="lang-en">Gallery</span><span class="lang-te" hidden>గ్యాలరీ</span></a>
+        <a href="voter-enrolment.html"  data-nav="voter"><span class="lang-en">Graduate Voter Enrolment</span><span class="lang-te" hidden>ఓటు నమోదు</span></a>
+        <a href="#" data-lang-switch class="nav__lang"><span class="lang-en">తెలుగు</span><span class="lang-te" hidden>English</span></a>
+      </div>
+      <a class="btn btn--primary" href="connect.html" data-nav="connect"><span class="lang-en">Connect With Gouri Satish</span><span class="lang-te" hidden>సంప్రదించండి</span></a>
+    </nav>
+  </div>
+</header>

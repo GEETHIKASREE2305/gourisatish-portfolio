@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" role="img" aria-label="Portrait of Gouri Satish">
+  <defs>
+    <clipPath id="frame"><rect x="0" y="0" width="480" height="600" rx="16"/></clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EAF3EE"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="480" height="600" fill="url(#bg)"/>
+    <circle cx="240" cy="252" r="150" fill="#FFFFFF"/>
+    <circle cx="240" cy="252" r="150" fill="none" stroke="#075B45" stroke-width="2" opacity="0.35"/>
+    <path d="M240 300a150 150 0 0 1 150 150H90A150 150 0 0 1 240 300Z" fill="#FFFFFF"/>
+    <!-- stylised figure -->
+    <g fill="#075B45">
+      <circle cx="240" cy="228" r="66"/>
+      <path d="M240 300c78 0 132 52 140 128 2 18-10 24-26 24H126c-16 0-28-6-26-24 8-76 62-128 140-128Z"/>
+    </g>
+    <path d="M240 300c78 0 132 52 140 128 2 18-10 24-26 24H240Z" fill="#E88922" opacity="0.9"/>
+    <rect x="0" y="586" width="480" height="14" fill="#E88922"/>
+  </g>
+</svg>

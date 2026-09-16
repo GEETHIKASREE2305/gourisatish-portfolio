@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 380" fill="none" aria-hidden="true">
+  <defs>
+    <filter id="feather" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="2.6"/>
+    </filter>
+  </defs>
+  <g filter="url(#feather)" stroke-linecap="round">
+    <!-- saffron -->
+    <path d="M10 246 C 110 210 192 148 470 28 C 468 42 452 56 300 126 C 190 176 94 232 24 270 C 14 268 8 258 10 246 Z"
+          fill="#E88922" opacity="0.72"/>
+    <path d="M18 230 C 130 192 242 124 468 42" stroke="#E88922" stroke-width="11" opacity="0.34"/>
+    <path d="M28 260 C 140 222 252 158 470 64" stroke="#E88922" stroke-width="7" opacity="0.26"/>
+    <path d="M336 70 q 44 -14 128 -50" stroke="#E88922" stroke-width="6" opacity="0.4"/>
+    <path d="M358 92 q 36 -10 100 -34" stroke="#E88922" stroke-width="4" opacity="0.3"/>
+    <!-- faint white parting -->
+    <path d="M22 282 C 138 242 258 172 472 80" stroke="#ffffff" stroke-width="15" opacity="0.55"/>
+    <!-- green -->
+    <path d="M20 326 C 118 288 220 216 474 94 C 472 108 452 120 320 184 C 210 236 118 296 38 340 C 28 340 18 336 20 326 Z"
+          fill="#075B45" opacity="0.6"/>
+    <path d="M30 312 C 140 274 252 206 474 106" stroke="#075B45" stroke-width="9" opacity="0.3"/>
+    <path d="M42 340 C 150 304 260 238 476 126" stroke="#075B45" stroke-width="6" opacity="0.22"/>
+    <path d="M348 128 q 46 -12 126 -40" stroke="#075B45" stroke-width="5" opacity="0.32"/>
+  </g>
+</svg>
